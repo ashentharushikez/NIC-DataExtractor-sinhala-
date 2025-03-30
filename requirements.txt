@@ -1,0 +1,6 @@
+google-generativeai
+pillow
+opencv-python
+numpy
+matplotlib
+requests
