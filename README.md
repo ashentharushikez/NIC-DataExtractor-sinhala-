@@ -1,63 +1,29 @@
-NIC Text Extraction System for Sri Lanka 🇱🇰
+# NIC Data Extractor 🛂📄  
 
-A Python-based system for extracting text from Sri Lankan National Identity Cards (NICs) using Google Gemini AI, OpenCV, and OCR techniques. The system also supports Tamil-to-Sinhala translation to enhance accuracy.
+A Python-based application designed to extract and process information from scanned National Identity Card (NIC) images. The system uses Optical Character Recognition (OCR) technology to identify and retrieve important details such as name, date of birth, NIC number, and more from NIC images.
 
-🌟 Features
+## 🌟 Features  
+- Extract and process text data from NIC images using OCR.
+- Accurate extraction of fields such as **Name**, **NIC Number**, **Date of Birth**, and **Address**.
+- Multilingual support for OCR (e.g., Sinhala, Tamil, English).
+- Easy-to-use script for automatic extraction.
+- Integration with **Google Gemini** for enhanced text recognition and language processing.
 
-Extracts text from NIC images using OCR.
+## 📸 Screenshots  
+![NIC Data Extraction Screenshot](screenshot.png)
 
-Enhances text accuracy with Google Gemini AI.
+## 🚀 Technologies Used  
+- **Python** - Core programming language for the script.
+- **Tesseract OCR** - Optical Character Recognition engine for extracting text from images.
+- **Google Gemini AI** - Language processing and enhanced text recognition.
+- **Pillow (PIL)** - Image manipulation and handling.
+- **PyTesseract** - Python wrapper for Tesseract OCR.
+- **RabbitMQ** - Queue management for handling asynchronous image processing (if applicable).
+- **Flask** - Back-end server for handling requests (if applicable).
+  
+## 🔧 Setup Instructions  
 
-Preprocesses images using OpenCV for better OCR results.
-
-Supports Tamil-to-Sinhala translation for improved understanding.
-
-Provides structured output for easy integration with other applications.
-
-🚀 Technologies Used
-
-Python - Core programming language.
-
-OpenCV - Image processing library.
-
-Tesseract OCR - Optical character recognition for text extraction.
-
-Google Gemini AI - AI-powered enhancement of extracted text.
-
-Google Translate API - Tamil-to-Sinhala translation.
-
-🔧 Setup Instructions
-
-Clone the repository:
-
-git clone https://github.com/ashentharushikez/nic-text-extraction.git
-cd nic-text-extraction
-
-Install dependencies:
-
-pip install opencv-python pytesseract google-cloud-translate google-generativeai
-
-Configure API keys for Google services.
-
-Run the NIC text extraction script:
-
-python extract_nic_text.py --image path/to/nic_image.jpg
-
-📌 Future Improvements
-
-Optimize OCR preprocessing for various NIC conditions.
-
-Improve AI model fine-tuning for better text accuracy.
-
-Develop a web-based or mobile application interface.
-
-Support Sinhala-to-Tamil translation.
-
-📜 License
-
-This project is open-source and available under the MIT License.
-
-👤 Author
-
-H.G. Ashen Tharushika
-
+1. Clone the repository:  
+   ```bash
+   git clone https://github.com/ashentharushikez/NIC-DataExtractor-sinhala-.git
+   cd NIC-DataExtractor-sinhala-
