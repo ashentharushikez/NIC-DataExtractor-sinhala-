@@ -10,7 +10,7 @@ A Python-based application designed to extract and process information from scan
 - Integration with **Google Gemini** for enhanced text recognition and language processing.
 
 ## 📸 Screenshots  
-![NIC Data Extraction Screenshot](screenshot.png)
+![NIC Data Extraction Screenshot](screenshotnic.png)
 
 ## 🚀 Technologies Used  
 - **Python** - Core programming language for the script.
